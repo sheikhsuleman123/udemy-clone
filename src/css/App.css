@@ -1,0 +1,23 @@
+.sidebar{
+    width: 250px;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+}
+
+.sidebar .logo{
+    padding: 20px 25px;
+}
+.sidebar .logo img {
+    height: 40px;
+}
+.sidebar .nav{
+    padding: 10px 35px;
+}
+.sidebar .nav li {}
+.sidebar .nav li a{
+    align-items: center;
+}
+.sidebar .nav li a img{ height: 14px;}
+.sidebar .nav li a h2{margin-left: 8px;}
+.sidebar .nav li a .lbl{}

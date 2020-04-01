@@ -1,11 +1,15 @@
 import React from 'react';
-// import logo from './logo.svg';
-import './css/App.css'
+import './css/props.css';
+import './css/App.css';
+// Screens
+import Header from './screens/header';
+import Sidebar from './screens/Sidebar';
 
 function App() {
   return (
     <div className="App">
-      hallo world
+      <Sidebar />
+      <Header />
     </div>
   );
 }
