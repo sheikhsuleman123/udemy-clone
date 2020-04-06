@@ -1,5 +1,5 @@
 .sidebar{
-    width: 250px;
+    width: 275px;
     top: 0px;
     left: 0px;
     bottom: 0px;
@@ -12,12 +12,34 @@
     height: 40px;
 }
 .sidebar .nav{
-    padding: 10px 35px;
+    padding: 50px 35px;
 }
 .sidebar .nav li {}
 .sidebar .nav li a{
     align-items: center;
+    padding: 10px 20px;
+    margin-bottom: 6px;
 }
-.sidebar .nav li a img{ height: 14px;}
+.sidebar .nav li a img { height: 14px;}
+.updated-course img { height: 20px;}
 .sidebar .nav li a h2{margin-left: 8px;}
 .sidebar .nav li a .lbl{}
+
+.sidebar .nav li a.on{
+    border-left: 2px #ea5252 solid;
+    color: #ea5252;
+    line-height: 1;
+}
+.sidebar .updated-course{
+    padding: 0px 35px;
+    /* margin: 20px 0px; */
+}
+.sidebar .updated-course .ico{
+    color: white;
+    background-color: #ea5252;
+    padding: 10px;
+    position: relative;
+    top: 6px;
+    margin-right: 8px;
+    border-radius: 20px;
+}
