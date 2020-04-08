@@ -58,13 +58,16 @@ export default function Sidebar() {
                 <h2 className="lbl s13 c777">points</h2>
             </div>
             
-            <div className="stats-box flex aic jic">
+            <div className="stats-box flex">
                 <div><img src={power} className="ico bl s24" /> </div>
                 <h2 className="val s13 c777 fontb">55.6%</h2>
                 <h2 className="lbl s13 c777 ">complete</h2>
             </div>
         </div>
-    
+        <div className="me flex aic">
+              <div className="photo cfff"><img src="http://placeimg.com/100/100/people" className="bl" /> </div>
+              <div className="lbl s13 fontb c333">Muhammad Suleman</div> 
+            </div>
     </div>
     )
 }

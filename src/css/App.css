@@ -53,4 +53,21 @@
     align-items: center;
     justify-content: center;
     padding: 20px;
+    
+}
+.sidebar .me{
+    padding: 20px 40px;
+}
+.sidebar .me .photo{
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+    overflow: hidden;
+    margin-right: 10px;
+    background: #eee;
+}
+.sidebar .me img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
 }
