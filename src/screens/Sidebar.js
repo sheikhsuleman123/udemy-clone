@@ -5,6 +5,8 @@ import horn from '../ui/bullhorn.png';
 import tag from '../ui/price-tag.png';
 import Bcase from '../ui/briefcase.png';
 import Horn from '../ui/bullhorn.png';
+import shield from '../ui/shield.png';
+import power from '../ui/power.png';
 
 import '../css/App.css';
 
@@ -33,6 +35,7 @@ export default function Sidebar() {
         )
     }
     return (
+        
         <div className="sidebar fixed ">
             <a href="#" className="logo bl">
                 <img src={logo} className="bl ico"/>
@@ -46,6 +49,22 @@ export default function Sidebar() {
               <div className="lbl s13 fontb c333">Updated Course</div> 
             </div>
               <h2 className="authore s13 c777 mr20">by Muhammad Suleman</h2>
+        
+        <div className="stats flex">
+
+            <div className="stats-box flex">
+                <div><img src={shield} className="ico bl s24" /> </div>
+                <h2 className="val s13 c777 fontb">1600</h2>
+                <h2 className="lbl s13 c777">points</h2>
+            </div>
+            
+            <div className="stats-box flex aic jic">
+                <div><img src={power} className="ico bl s24" /> </div>
+                <h2 className="val s13 c777 fontb">55.6%</h2>
+                <h2 className="lbl s13 c777 ">complete</h2>
+            </div>
         </div>
+    
+    </div>
     )
 }

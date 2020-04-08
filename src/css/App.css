@@ -21,6 +21,10 @@
     margin-bottom: 6px;
 }
 .sidebar .nav li a img { height: 14px;}
+.stats-box img { 
+    height: 16px;
+    margin-bottom: 10px;    
+}
 .updated-course img { height: 20px;}
 .sidebar .nav li a h2{margin-left: 8px;}
 .sidebar .nav li a .lbl{}
@@ -42,4 +46,11 @@
     top: 6px;
     margin-right: 8px;
     border-radius: 20px;
+}
+.sidebar .stats{margin: 30px 20px;}
+.sidebar .stats .stats-box{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
 }

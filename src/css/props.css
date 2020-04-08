@@ -23,6 +23,7 @@ ul, ol{
 }
 .bl{display: block;}
 .aic{align-items: center;}
+.jic{justify-content: center;}
 .noul{text-decoration: none;}
 .fontb{font-weight: bold;}
 
