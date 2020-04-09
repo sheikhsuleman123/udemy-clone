@@ -1,8 +1,5 @@
 .sidebar{
     width: 275px;
-    top: 0px;
-    left: 0px;
-    bottom: 0px;
 }
 
 .sidebar .logo{
@@ -70,4 +67,43 @@
     width: 100%;
     height: 100%;
     border-radius: 50%;
+}
+
+.app-content{
+    flex: 2;
+    padding: 20px 0px;
+}
+
+/* Home Page section CSS */
+
+.home-page{}
+.home-page .section{}
+.home-page .section .title{margin-bottom: 20px;}
+.home-page .section .tutors{}
+.home-page .section .tutors .tutor{
+    border: 2px solid #ea5252;
+    background: #fff;
+    width: 70px;
+    height: 70px;
+    overflow: hidden;
+    margin-right: 20px;
+    border-radius: 50px;
+    padding: 0px;
+}
+.home-page .section .tutors .tutor img{
+    width: 100%;
+    height: 100%;
+    border-radius: 25px;
+}
+.home-page .section .tutors .tutor:hover{}
+
+.home-page .section-b{
+    margin-top: 50px;
+}
+.home-page .section .course .block{
+    width: 250px;
+    height: 375px;
+    background: #e2e2e2;
+    border-radius: 30px;
+    background-size: cover !important;
 }

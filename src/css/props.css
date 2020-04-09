@@ -7,9 +7,15 @@ h1,h2,h3,h4,h5,h6 {
     margin: 0px;
     padding: 0px;
 }
+button{
+    cursor: pointer;
+}
 .b{border: 1px solid red;}
 .flex{display: flex;}
+
 .fixed{display: fixed;}
+.abs{position: absolute;}
+.rel{position: relative;}
 .mr20{
     position: relative;
     left: 83px;
@@ -22,10 +28,14 @@ ul, ol{
     list-style: none;
 }
 .bl{display: block;}
+
 .aic{align-items: center;}
 .jic{justify-content: center;}
+
 .noul{text-decoration: none;}
+
 .fontb{font-weight: bold;}
+.fontn{font-weight: normal;}
 
 .c333{color: #333;}
 .c777{color: #777;}

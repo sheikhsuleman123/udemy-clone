@@ -4,12 +4,15 @@ import './css/App.css';
 // Screens
 import Header from './screens/header';
 import Sidebar from './screens/Sidebar';
+import Home from './screens/home';
 
 function App() {
   return (
-    <div className="App">
+    <div className="App flex">
       <Sidebar />
-      <Header />
+      <div className="app-content">
+        <Home />
+      </div>
     </div>
   );
 }
