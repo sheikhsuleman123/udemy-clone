@@ -33,10 +33,29 @@ export default function Home() {
     for(let i= 0; i < popularCourse.length; i++ ){
         courseList.push(
             <a href="#" className="course rel" key={"popular-course" + i}>
-                <div className="block" style={{background:  " #e2e2e2 url(" + popularCourse[i].poster +" ) no-repeat center" }} >
+                <div className="block rel" style={{background:  " #e2e2e2 url(" + popularCourse[i].poster +" ) no-repeat center" }} >
+                
+                <div className="user aic abs flex">
+                    <div className="pic">
+                        <img src={popularCourse[i].tutor.dp} className="bl" alt=""/>
+                    </div>
+                    <div className="meta rel">
+                        <h2 className="s15 fontb name cfff">{popularCourse[i].tutor.name} </h2>
+                        <h2 className="s13 fontn username cfff">@{popularCourse[i].tutor.username} </h2>
+                    </div>
                 </div>
+                
+                <div className="dura abs">
+                <h2 className="s13 fontb name cfff">@{popularCourse[i].duration} </h2>
+                </div>
+             
+                <div className="course-title abs">
+                <h2 className="s15 fontb name cfff">{popularCourse[i].title} </h2>
+                </div>
+             
+              </div>
             </a>
-        )
+        );
     }
     return (
         <div className="home-page rel">
