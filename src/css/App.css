@@ -105,6 +105,7 @@
     height: 375px;
     background: #e2e2e2;
     border-radius: 30px;
+    margin-right: 25px;
     background-size: cover !important;
 }
 .home-page .section .course .block .user{

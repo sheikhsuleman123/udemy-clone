@@ -1,7 +1,7 @@
 import React,{useState} from 'react';
 
 import Course1 from '../ui/web.png';
-import Course2 from '../ui/web.png';
+import Course2 from '../ui/web2.jpg';
 
 export default function Home() {
 
@@ -17,6 +17,18 @@ export default function Home() {
             },
             duration:'82 min',
             poster: Course1      
+        },
+        {
+            ID: 2,
+            title: "Learning How to create Beautiful illustrate design in 60 minutes",
+            tutor: {
+                ID: 1,
+                name:'Uran Design',
+                username:'@urandesign',
+                dp: "http://placeimg.com/100/100/people?tutor-" + 2,
+            },
+            duration:'1 hr 12 min',
+            poster: Course2
         }
     ])
 
