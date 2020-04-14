@@ -143,3 +143,18 @@
     background: rgba(87, 86, 165, 0.33);
     text-shadow: 1px 1px 1px rgb(94, 116, 214);
 }
+
+.home-page .section .user-block .pic{
+    width: 40px;
+    height: 40px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    padding: 3px;
+    margin-right: 10px;
+}
+
+.home-page .section .user-block .pic img {
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}

@@ -32,6 +32,27 @@ export default function Home() {
         }
     ])
 
+    const [topTutors, settopTutors] = useState([
+        {
+                ID: 1,
+                name:'Lana Mardiana',
+                username:'@lanamariadana',
+                dp: "http://placeimg.com/100/100/people?tutor-" + 1,   
+        },
+        {             
+                ID: 1,
+                name:'Uran Design',
+                username:'@urandesign',
+                dp: "http://placeimg.com/100/100/people?tutor-" + 2,   
+       },
+       {             
+                ID: 1,
+                name:'Uran Design',
+                username:'@urandesign',
+                dp: "http://placeimg.com/100/100/people?tutor-" + 3,   
+        }
+    ])
+
     var tutorList = [];
     for(let i= 0; i < 8; i++ ){
         tutorList.push(
@@ -69,6 +90,22 @@ export default function Home() {
             </a>
         );
     }
+    var topTutorsList = [];
+    for(let i= 0; i < topTutors.length; i++ ){
+        topTutorsList.push(
+            <a href="#" className="user-block rel noul" key={"top-tutors" + i}>     
+                <div className="user aic flex">
+                    <div className="pic">
+                        <img src={topTutors[i].dp} className="bl" alt=""/>
+                    </div>
+                    <div className="meta rel">
+                        <h2 className="s15 fontb name c333">{topTutors[i].name} </h2>
+                        <h2 className="s13 fontn username c333">{topTutors[i].username} </h2>
+                    </div>
+                </div>
+            </a>
+        );
+    }
     return (
         <div className="home-page rel">
          
@@ -83,6 +120,12 @@ export default function Home() {
                 <h2 className="title s24 fontb"> Populer <span className="fontn">Things</span>   </h2>
           <div className="courses rel flex">
                 {courseList}
+          </div> 
+        </div>
+        <div className="section section-b rel">
+                <h2 className="title s24 fontb"> Top <span className="fontn">Tutors</span>   </h2>
+          <div className="courses rel flex">
+                {topTutorsList}
           </div> 
         </div>
         
