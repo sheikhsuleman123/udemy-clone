@@ -50,7 +50,25 @@ export default function Home() {
                 name:'Uran Design',
                 username:'@urandesign',
                 dp: "http://placeimg.com/100/100/people?tutor-" + 3,   
-        }
+        },
+        {
+            ID: 4,
+            name:'Lana Mardiana',
+            username:'@lanamariadana',
+            dp: "http://placeimg.com/100/100/people?tutor-" + 4,   
+    },
+    {             
+            ID: 5,
+            name:'Uran Design',
+            username:'@urandesign',
+            dp: "http://placeimg.com/100/100/people?tutor-" + 5,   
+   },
+   {             
+            ID: 6,
+            name:'Uran Design',
+            username:'@urandesign',
+            dp: "http://placeimg.com/100/100/people?tutor-" + 6,   
+    }
     ])
 
     var tutorList = [];
@@ -124,7 +142,7 @@ export default function Home() {
         </div>
         <div className="section section-b rel">
                 <h2 className="title s24 fontb"> Top <span className="fontn">Tutors</span>   </h2>
-          <div className="courses rel flex">
+          <div className="top-tutor rel flex">
                 {topTutorsList}
           </div> 
         </div>
