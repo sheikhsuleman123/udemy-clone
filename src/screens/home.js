@@ -140,6 +140,7 @@ export default function Home() {
                 {courseList}
           </div> 
         </div>
+        
         <div className="section section-b rel">
                 <h2 className="title s24 fontb"> Top <span className="fontn">Tutors</span>   </h2>
           <div className="top-tutor rel flex">

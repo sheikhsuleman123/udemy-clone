@@ -5,6 +5,7 @@ import './css/App.css';
 import Header from './screens/header';
 import Sidebar from './screens/Sidebar';
 import Home from './screens/home';
+import Rightbar from './screens/rightbar';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <div className="app-content">
         <Home />
       </div>
+      <Rightbar />
     </div>
   );
 }

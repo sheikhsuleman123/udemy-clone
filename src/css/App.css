@@ -1,3 +1,6 @@
+.App{
+    padding: 0px 20px 0px 0px;
+}
 .sidebar{
     width: 275px;
 }
@@ -11,7 +14,6 @@
 .sidebar .nav{
     padding: 50px 35px;
 }
-.sidebar .nav li {}
 .sidebar .nav li a{
     align-items: center;
     padding: 10px 20px;
@@ -24,7 +26,6 @@
 }
 .updated-course img { height: 20px;}
 .sidebar .nav li a h2{margin-left: 8px;}
-.sidebar .nav li a .lbl{}
 
 .sidebar .nav li a.on{
     border-left: 2px #ea5252 solid;
@@ -76,10 +77,9 @@
 
 /* Home Page section CSS */
 
-.home-page{}
-.home-page .section{}
-.home-page .section .title{margin-bottom: 20px;}
-.home-page .section .tutors{}
+.home-page .section .title{
+    margin-bottom: 20px;
+}
 .home-page .section .tutors .tutor{
     border: 2px solid #ea5252;
     background: #fff;
@@ -95,7 +95,6 @@
     height: 100%;
     border-radius: 25px;
 }
-.home-page .section .tutors .tutor:hover{}
 
 .home-page .section-b{
     margin-top: 50px;
@@ -163,4 +162,36 @@
 }
 .home-page .top-tutor{
     flex-wrap: wrap;
+}
+
+    /* RIGHTBAR */
+
+.rightbar{
+    flex: 1;
+    padding: 20px 0px;
+}
+.rightbar .searchbox{
+    padding: 2px;
+    border-radius: 5px;
+}
+.rightbar .searchbox .qry{
+    flex: 1;
+    border: 0px;
+    padding: 12px;
+    background: #eaeaea;
+    margin-right: 12px;
+    border-radius: 6px;
+}
+
+.rightbar .searchbox .go{
+    border: 0px;
+    background: #ea5252;
+    padding: 0px 20px;
+    border-radius: 5px;
+}
+.rightbar .searchbox .go:hover{
+    background: #d24444;
+}
+input {
+    outline: none;
 }
