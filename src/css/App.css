@@ -2,7 +2,7 @@
     padding: 0px 20px 0px 0px;
 }
 .sidebar{
-    width: 275px;
+    width: 280px;
 }
 
 .sidebar .logo{
@@ -34,7 +34,7 @@
 }
 .sidebar .updated-course{
     padding: 0px 35px;
-    /* margin: 20px 0px; */
+    margin: 20px 0px;
 }
 .sidebar .updated-course .ico{
     color: white;
@@ -45,7 +45,8 @@
     margin-right: 8px;
     border-radius: 20px;
 }
-.sidebar .stats{margin: 30px 20px;}
+.sidebar .stats{
+    margin: 30px 20px;}
 .sidebar .stats .stats-box{
     flex-direction: column;
     align-items: center;
@@ -77,10 +78,10 @@
 
 /* Home Page section CSS */
 
-.home-page .section .title{
+ .section .title{
     margin-bottom: 20px;
 }
-.home-page .section .tutors .tutor{
+ .section .tutors .tutor{
     border: 2px solid #ea5252;
     background: #fff;
     width: 70px;
@@ -90,16 +91,16 @@
     border-radius: 50px;
     padding: 0px;
 }
-.home-page .section .tutors .tutor img{
+ .section .tutors .tutor img{
     width: 100%;
     height: 100%;
     border-radius: 25px;
 }
 
-.home-page .section-b{
-    margin-top: 50px;
+ .section-b{
+    margin-top: 10px;
 }
-.home-page .section .course .block{
+ .section .course .block{
     width: 250px;
     height: 375px;
     background: #e2e2e2;
@@ -107,23 +108,23 @@
     margin-right: 25px;
     background-size: cover !important;
 }
-.home-page .section .course .block .user{
+ .section .course .block .user{
     padding: 5px 20px;
     z-index: 1;
 }
-.home-page .section .course .block .user .pic{
+.section .course .block .user .pic{
     width: 50px;
     height: 50px;
     border: 2px solid #fff;
     border-radius: 50%;
     margin-right: 10px;
 }
-.home-page .section .course .block .user .pic img{
+.section .course .block .user .pic img{
     height: 100%;
     width: 100%;
     border-radius: 50%;
 }
-.home-page .section .course .block .dura{
+ .section .course .block .dura{
     top: 70px;
     left: 20px;
     background: #ea5252;
@@ -133,7 +134,7 @@
     box-shadow:  0px 2px 1px rgba(0, 0, 0, 0.33);
     z-index: 1;
 }
-.home-page .section .course .block .course-title{
+ .section .course .block .course-title{
     bottom: 15px;
     left: 15px;
     right: 15px;
@@ -194,4 +195,15 @@
 }
 input {
     outline: none;
+}
+.rightbar .courses{
+    flex-direction: column;
+}
+.rightbar .course .cols{
+    flex-direction: row;
+}
+.rightbar .course-a .block{
+    width: 80%;
+    height: 250px;
+    margin-bottom: 20px;
 }
