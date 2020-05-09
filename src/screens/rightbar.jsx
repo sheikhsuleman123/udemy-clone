@@ -87,14 +87,16 @@ for(let i= 0; i < popularCourse.length; i++ ){
 
           <div className="section section-b rel">
              <div className="courses rel flex">
-               
                <div className="course-a">
                 {courseList[0]}             
                </div>
-
-                
+               <div className="flex cols">
+                  {courseList[1]}
+                  {courseList[2]}
+                </div>
              </div> 
           </div>
+
 
         </div>
     );
