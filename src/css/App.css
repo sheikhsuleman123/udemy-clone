@@ -221,6 +221,25 @@ input {
     border-radius: 20px;
     overflow: hidden;
 }
+.rightbar .offer .meta{
+    flex: 1;
+    padding: 3px;
+    z-index: 2;
+}
+.rightbar .offer .vector{
+    /* padding-top: 30px; */
+    /* width: 150px; */
+    z-index: 2;
+}
+.rightbar .offer .ring{
+    height: 150px;
+    width: 130px;
+    background: #93ebe8;
+    border-radius: 100%;
+    right: 0px;
+    top: 50%;
+    transform: translateY(-50%);
+}
 .rightbar .offer .meta button{
     background: #fff;
     border: 0px;
@@ -232,4 +251,7 @@ input {
 .rightbar .offer .meta button:hover{
     background: #d24444;
     color: white;
+}
+.section .offer .meta h2{
+    color: #ea5252;
 }

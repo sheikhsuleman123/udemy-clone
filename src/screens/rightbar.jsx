@@ -104,11 +104,12 @@ for(let i= 0; i < popularCourse.length; i++ ){
                <div className="meta">
                    <h2 className="h1 s20 fontb"> 50 Days Premium  </h2>    
                    <span className="h2  fontb"> Get it before 5.5.2020  </span>    
-                  <button className="s15 fontb">Learn more</button>
+                  <button className="s13 fontb">Learn more</button>
                </div>
-               <div className="vector">
+               <div className="vector rel">
                     <img src={Cake} alt="" />
                </div>
+               <div className="ring abs"></div>
              </div> 
           </div>
 
