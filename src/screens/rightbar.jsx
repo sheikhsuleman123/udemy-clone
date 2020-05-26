@@ -1,8 +1,9 @@
 import React,{useState} from 'react'
-
+import '../css/App.css';
 
 import Course1 from '../ui/web.png';
 import Course2 from '../ui/web2.jpg';
+import Cake from '../ui/cake.png';
 
 export default function Rightbar() {
 
@@ -97,6 +98,19 @@ for(let i= 0; i < popularCourse.length; i++ ){
              </div> 
           </div>
 
+          <div className="section section-b rel ">
+            <h2 className="title s24 fontb"> Special <span className="fontn">Offers </span>   </h2>    
+             <div className="offer rel flex">
+               <div className="meta">
+                   <h2 className="h1 s20 fontb"> 50 Days Premium  </h2>    
+                   <span className="h2  fontb"> Get it before 5.5.2020  </span>    
+                  <button className="s15 fontb">Learn more</button>
+               </div>
+               <div className="vector">
+                    <img src={Cake} alt="" />
+               </div>
+             </div> 
+          </div>
 
         </div>
     );
